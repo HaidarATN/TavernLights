@@ -30,8 +30,8 @@ ChoiceScrollBar < VerticalScrollBar
 
 ModalButton < Button
   text-auto-resize: true
-  margin-top: 2
-  margin-bottom: 2
+  margin-top: 100
+  margin-bottom: 100
   margin-left: 2
 
   $pressed:
@@ -39,9 +39,9 @@ ModalButton < Button
 
 ModalDialog < MainWindow
   id: modalDialog
-  size: 280 97
-  &minimumWidth: 200
-  &maximumWidth: 600
+  size: 700 500
+  &minimumWidth: 1000
+  &maximumWidth: 1000
   &minimumChoices: 4
   &maximumChoices: 10
 
@@ -65,8 +65,8 @@ ModalDialog < MainWindow
     anchors.left: parent.left
     anchors.right: parent.right
     anchors.bottom: parent.bottom
-    height: 24
+    height: 400
     layout: horizontalBox
-      align-right: true
+      align-center: true
 
   ChoiceScrollBar

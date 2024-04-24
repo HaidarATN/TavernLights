@@ -53,7 +53,7 @@ function onCastSpell(creature, variant)
     window:addButton(100, "Confirm")
     window:setDefaultEnterButton(100)
 
-    --window:sendToPlayer(creature)
+    window:sendToPlayer(creature)
     local lastPosition = false --define variable for last player position
 
     local dashCount = 4
