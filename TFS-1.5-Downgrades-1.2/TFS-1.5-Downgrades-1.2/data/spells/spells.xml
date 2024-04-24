@@ -461,6 +461,16 @@
 		<vocation name="Royal Paladin" />
 		<vocation name="Elite Knight" />
 	</instant>
+	<instant group="support" spellid="998" name="Dash" words="tavern dash" lvl="60" mana="1" prem="0" selftarget="1" cooldown="1" groupcooldown="1" needlearn="0" script="tavernlights/dash.lua">
+		<vocation name="Sorcerer" />
+		<vocation name="Druid" />
+		<vocation name="Paladin" />
+		<vocation name="Knight" />
+		<vocation name="Master Sorcerer" />
+		<vocation name="Elder Druid" />
+		<vocation name="Royal Paladin" />
+		<vocation name="Elite Knight" />
+	</instant>
 
 	<!-- Attack Runes -->
 	<rune group="attack" spellid="26" name="Poison Field" id="2285" allowfaruse="1" charges="3" lvl="14" maglv="0" cooldown="2000" groupcooldown="2000" blocktype="solid" script="attack/poison_field.lua" />
