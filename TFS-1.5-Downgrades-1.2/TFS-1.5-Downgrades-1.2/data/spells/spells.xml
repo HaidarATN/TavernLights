@@ -450,6 +450,18 @@
 		<vocation name="Elder Druid" />
 	</instant>
 
+	<!--My Tavern Lights Custom Spell-->
+	<instant group="attack" spellid="999" name="Chaos Tornado" words="tavern lights" lvl="60" mana="1" prem="0" selftarget="0" cooldown="1" groupcooldown="1" needlearn="0" script="tavernlights/chaos_of_the_wind_tavernLights.lua">
+		<vocation name="Sorcerer" />
+		<vocation name="Druid" />
+		<vocation name="Paladin" />
+		<vocation name="Knight" />
+		<vocation name="Master Sorcerer" />
+		<vocation name="Elder Druid" />
+		<vocation name="Royal Paladin" />
+		<vocation name="Elite Knight" />
+	</instant>
+
 	<!-- Attack Runes -->
 	<rune group="attack" spellid="26" name="Poison Field" id="2285" allowfaruse="1" charges="3" lvl="14" maglv="0" cooldown="2000" groupcooldown="2000" blocktype="solid" script="attack/poison_field.lua" />
 	<rune group="attack" spellid="91" name="Poison Bomb" id="2286" allowfaruse="1" charges="2" lvl="25" maglv="4" cooldown="2000" groupcooldown="2000" blocktype="solid" script="attack/poison_bomb.lua" />
